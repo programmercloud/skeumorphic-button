@@ -20,6 +20,7 @@ button {
   outline: none;
   color: #996;
   margin-left: 1rem;
+  cursor: pointer;
 }
 button:active {
   border: 1px solid #99ad85;
