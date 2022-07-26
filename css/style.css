@@ -1,0 +1,102 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle farthest-corner at center 25%,
+    #e6e6e6 0%,
+    #b3b3b3 100%
+  );
+}
+button {
+  padding: 1rem;
+  border: 1px solid #99ad85;
+  border-radius: 3px;
+  background: radial-gradient(
+    circle farthest-corner at center 25%,
+    #e5e8e3 0%,
+    #bdccb3 100%
+  );
+  box-shadow: 0px 0px 0px 1px #ada085, 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+  color: #996;
+  margin-left: 1rem;
+}
+button:active {
+  border: 1px solid #99ad85;
+  background: radial-gradient(
+    circle farthest-corner at center 35%,
+    #f1f7ed 0%,
+    #def0a8 100%
+  );
+  box-shadow: 0px 0px 0px 1px #ada085, 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 0px 2px #f1f7ed;
+  color: #c2c270;
+}
+.red {
+  border: 1px solid #ad858b;
+  background: radial-gradient(
+    circle farthest-corner at center 25%,
+    #e8e3e3 0%,
+    #ccb3b5 100%
+  );
+  box-shadow: 0px 0px 0px 1px #ad85ad, 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #968;
+}
+.red:active {
+  border: 1px solid #99ad85;
+  background: radial-gradient(
+    circle farthest-corner at center 35%,
+    #f7eded 0%,
+    #f0a8c6 100%
+  );
+  box-shadow: 0px 0px 0px 1px #ad85ad, 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 0px 2px #f7eded;
+  color: #c270a7;
+}
+.green {
+  border: 1px solid #99ad85;
+  background: radial-gradient(
+    circle farthest-corner at center 25%,
+    #e5e8e3 0%,
+    #bdccb3 100%
+  );
+  box-shadow: 0px 0px 0px 1px #ada085, 2px 2px 4px 0px rgba(0, 0, 0, 0.25),
+    inset 0px 0px 2px rgba(48, 61, 41, 0.25);
+  color: #996;
+}
+.green:active {
+  border: 1px solid #99ad85;
+  background: radial-gradient(
+    circle farthest-corner at center 35%,
+    #f1f7ed 0%,
+    #def0a8 100%
+  );
+  box-shadow: 0px 0px 0px 1px #ada085, 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 0px 2px #f1f7ed;
+  color: #c2c270;
+}
+.blue {
+  border: 1px solid #ad858b;
+  background: radial-gradient(
+    circle farthest-corner at center 25%,
+    #e3e6e8 0%,
+    #b3c6cc 100%
+  );
+  box-shadow: 0px 0px 0px 1px #85ad92, 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #698;
+}
+.blue:active {
+  border: 1px solid #99ad85;
+  background: radial-gradient(
+    circle farthest-corner at center 35%,
+    #edf4f7 0%,
+    #a8def0 100%
+  );
+  box-shadow: 0px 0px 0px 1px #85ad92, 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 0px 2px #edf4f7;
+  color: #70c2a7;
+}
