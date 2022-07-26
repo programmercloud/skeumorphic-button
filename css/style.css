@@ -5,11 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(
-    circle farthest-corner at center 25%,
-    #e6e6e6 0%,
-    #b3b3b3 100%
-  );
+  background: linear-gradient(#ece9e6 0%, #fff 100%);
 }
 button {
   padding: 1rem;
